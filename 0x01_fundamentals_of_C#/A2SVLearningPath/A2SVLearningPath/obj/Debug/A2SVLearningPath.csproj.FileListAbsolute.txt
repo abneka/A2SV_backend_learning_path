@@ -1,0 +1,7 @@
+C:\Users\kkofi\RiderProjects\A2SVLearningPath\A2SVLearningPath\bin\Debug\A2SVLearningPath.exe
+C:\Users\kkofi\RiderProjects\A2SVLearningPath\A2SVLearningPath\bin\Debug\A2SVLearningPath.pdb
+C:\Users\kkofi\RiderProjects\A2SVLearningPath\A2SVLearningPath\obj\Debug\A2SVLearningPath.csproj.AssemblyReference.cache
+C:\Users\kkofi\RiderProjects\A2SVLearningPath\A2SVLearningPath\obj\Debug\A2SVLearningPath.csproj.SuggestedBindingRedirects.cache
+C:\Users\kkofi\RiderProjects\A2SVLearningPath\A2SVLearningPath\obj\Debug\A2SVLearningPath.csproj.CoreCompileInputs.cache
+C:\Users\kkofi\RiderProjects\A2SVLearningPath\A2SVLearningPath\obj\Debug\A2SVLearningPath.exe
+C:\Users\kkofi\RiderProjects\A2SVLearningPath\A2SVLearningPath\obj\Debug\A2SVLearningPath.pdb
