@@ -11,10 +11,10 @@ namespace A2SVLearningPath_Day3_task2
         internal List<MediaItem> MediaItems { get; set; } = new List<MediaItem>();
 
 
-        public Library(string name, string address)
+        public Library(string[] lib)
         {
-            Name = name;
-            Address = address;
+            Name = lib[0];
+            Address = lib[1];
         }
 
         public void AddBook(Book book)

@@ -44,5 +44,17 @@ namespace A2SVLearningPath_Day3_task2
 
             return input;
         }
+        
+        public static string[] NewLibrary()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("please Input Library's Name");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Please Input {name}'s Address");
+            string address = Console.ReadLine();
+            string[] input = { name, address};
+
+            return input;
+        }
     }
 }

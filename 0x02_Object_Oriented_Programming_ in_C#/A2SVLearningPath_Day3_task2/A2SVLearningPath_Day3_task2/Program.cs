@@ -6,8 +6,8 @@ namespace A2SVLearningPath_Day3_task2
     {
         public static void Main(string[] args)
         {
-            Library abrehot = new Library("Abrehot", "4 Kilo");
-            Menu(abrehot);
+            Library library = new Library(UserInput.NewLibrary());
+            Menu(library);
         }
 
         private static void BookMenu(Library lib)
@@ -93,7 +93,7 @@ namespace A2SVLearningPath_Day3_task2
             int prompt = 1;
             while (prompt > 0 && prompt < 4){
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("     => Welcome To Library Catalogue <=");
+                Console.WriteLine($"     => Welcome To {lib.Name} Library Catalogue <=");
                 Console.WriteLine("press the corresponding number to see the activate the actions");
                 Console.WriteLine("1. Books");
                 Console.WriteLine("2. Media");
