@@ -1,0 +1,7 @@
+C:\Users\kkofi\RiderProjects\A2SVLearningPath_Day4_Task1\A2SVLearningPath_Day4_Task1\bin\Debug\A2SVLearningPath_Day4_Task1.exe
+C:\Users\kkofi\RiderProjects\A2SVLearningPath_Day4_Task1\A2SVLearningPath_Day4_Task1\bin\Debug\A2SVLearningPath_Day4_Task1.pdb
+C:\Users\kkofi\RiderProjects\A2SVLearningPath_Day4_Task1\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.csproj.AssemblyReference.cache
+C:\Users\kkofi\RiderProjects\A2SVLearningPath_Day4_Task1\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.csproj.SuggestedBindingRedirects.cache
+C:\Users\kkofi\RiderProjects\A2SVLearningPath_Day4_Task1\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.csproj.CoreCompileInputs.cache
+C:\Users\kkofi\RiderProjects\A2SVLearningPath_Day4_Task1\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.exe
+C:\Users\kkofi\RiderProjects\A2SVLearningPath_Day4_Task1\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.pdb
