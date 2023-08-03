@@ -1,7 +1,0 @@
-C:\Users\kkofi\Desktop\New folder (2)\New folder\A2SV_backend_learning_path\0x03_Going_Deeper_Advanced_C#\A2SVLearningPath_Day4_Task1\bin\Debug\A2SVLearningPath_Day4_Task1.exe
-C:\Users\kkofi\Desktop\New folder (2)\New folder\A2SV_backend_learning_path\0x03_Going_Deeper_Advanced_C#\A2SVLearningPath_Day4_Task1\bin\Debug\A2SVLearningPath_Day4_Task1.pdb
-C:\Users\kkofi\Desktop\New folder (2)\New folder\A2SV_backend_learning_path\0x03_Going_Deeper_Advanced_C#\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.csproj.AssemblyReference.cache
-C:\Users\kkofi\Desktop\New folder (2)\New folder\A2SV_backend_learning_path\0x03_Going_Deeper_Advanced_C#\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.csproj.SuggestedBindingRedirects.cache
-C:\Users\kkofi\Desktop\New folder (2)\New folder\A2SV_backend_learning_path\0x03_Going_Deeper_Advanced_C#\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.csproj.CoreCompileInputs.cache
-C:\Users\kkofi\Desktop\New folder (2)\New folder\A2SV_backend_learning_path\0x03_Going_Deeper_Advanced_C#\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.exe
-C:\Users\kkofi\Desktop\New folder (2)\New folder\A2SV_backend_learning_path\0x03_Going_Deeper_Advanced_C#\A2SVLearningPath_Day4_Task1\obj\Debug\A2SVLearningPath_Day4_Task1.pdb
