@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\A2SVLearningPath_Day7_task.props" />
+</Project>
