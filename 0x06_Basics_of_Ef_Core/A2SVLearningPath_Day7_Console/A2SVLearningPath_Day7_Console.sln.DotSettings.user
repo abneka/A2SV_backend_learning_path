@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b5534337_002Dd92f_002D46bb_002Db2bd_002De2f77f71754a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="EditPost" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::9D1BEBDD-BB35-4C32-A7A0-CBD045B0458A::net7.0::UnitTest.PostManagerTest.EditPost&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9D1BEBDD-BB35-4C32-A7A0-CBD045B0458A::net7.0::UnitTest.PostManagerTest.CreatePost_WhenCalled_ReturnsPost&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
