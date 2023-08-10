@@ -1,0 +1,135 @@
+# BlogApp
+This is a bloging app created with ASP.NET Core Web Api. The main goal of this task was to be able to use EFCore to integrate PostgreSQL with .Net development. The method to allow users to access it was our choice and I have gone with a REST(ful) API. The project follows the Clean Architecture pattern where the code base has been divided into Domain, Application, Infrastructure and Presentation. The project also contains a test module, which contains unit tests for the application.
+
+P.S.: I am not using a Roslyn-based linter. For that reason, my code might show some formatting/linting differences from popular text-editor code (VSCode...), but it's just the linter.
+
+## Table of Contents
+1. [Features](#features)
+2. [Code Organization](#code-organization)
+3. [Endpoints](#endpoints)
+
+## Features
+Users can add their posts and can also comment on blog posts.
+
+## Code Organization
+The code is organized into the following folders:
+```bash
+├── 0x07_Basics_of_.net_core: A2SVLearningPath_Day7_task
+│   ├── A2SVLearningPath_Day7_task
+│   │   ├── Controllers
+│   │   │   ├── CommentManager.cs
+│   │   │   ├── PostManager.cs
+│   │   ├── Data
+│   │   │   ├── ApiDbContext.cs
+│   │   ├── Models
+│   │   │   ├── Comment.cs
+│   │   │   ├── Post.cs
+│   │   ├── appsettings.Development.json
+│   │   ├── A2SVLearningPath_Day7_task.csproj
+│   │   ├── appsettings.json
+│   │   ├── Program.cs
+│   ├── TestUnit
+│   ├── A2SVLearningPath_Day7_task.sln
+│   ├── README.md
+```
+
+## Endpoints
+![image]([https://github.com/ffekirnew/a2sv-backend-engineering/assets/98191496/fb928263-2f7e-4c99-bc40-037200348008](https://github.com/abneka/A2SV_backend_learning_path/blob/main/assets/api%20end%20point.png))
+The end-points of this application can be generally divided into two categories: [Post](#1-post) and [Comment](#2-comment).
+The end-points of this api are based on the REST architecture. The request and response formats are in JSON. They are described below. Then the end points will follow:
+### 1. Post
+#### Request Format
+```js
+{
+  "postId": 0,
+  "title": "string",
+  "content": "string",
+  "createdAt": "2023-08-10T18:49:21.572Z",
+  "comments": []
+}
+```
+
+#### Response Format
+```js
+{
+  "postId": 0,
+  "title": "string",
+  "content": "string",
+  "createdAt": "2023-08-10T18:50:13.025Z",
+  "comments": [
+    {
+      "commentId": 0,
+      "postId": 0,
+      "text": "string",
+      "createdAt": "2023-08-10T18:50:13.025Z"
+    }
+  ]
+}
+```
+#### Endpoints
+##### Get all posts
+```js
+GET /api/PostManager
+```
+
+##### Get post by id
+```js
+GET /api/PostManager/{id}
+```
+
+##### Create post
+```js
+POST /api/PostManager
+```
+
+##### Update post
+```js
+PUT /api/PostManager
+```
+
+##### Delete post
+```js
+DELETE /api/PostManager
+```
+
+### 2. Comment
+#### Request Format
+```js
+{
+  "commentId": 0,
+  "postId": 0,
+  "text": "string",
+  "createdAt": "2023-08-10T18:52:32.514Z"
+}
+```
+
+#### Response Format
+```js
+{
+  "commentId": 0,
+  "postId": 0,
+  "text": "string",
+  "createdAt": "2023-08-10T18:52:32.514Z"
+}
+```
+
+#### Endpoints
+##### Get all comments
+```js
+GET /api/CommentManager/{postId}
+```
+
+##### Create comment
+```js
+POST /api/CommentManager
+```
+
+##### Update comment
+```js
+PUT /api/CommentManager
+```
+
+##### Delete comment
+```js
+DELETE /api/CommentManager
+```
