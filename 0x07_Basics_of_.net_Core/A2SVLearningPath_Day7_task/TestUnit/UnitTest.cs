@@ -6,6 +6,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Xunit;
 
+// This class contains unit tests for testing the functionality of controllers in the application.
+// It uses the Xunit testing framework to define individual test methods for different controller actions.
+// The tests are written to ensure that the controllers behave as expected and return the correct results.
+// The tests are written to test the following:
 namespace TestUnit;
 
 public class UnitTest
@@ -20,6 +24,7 @@ public class UnitTest
         _context = new ApiDbContext(options);
     }
     
+    // 1. The Get() method in the PostManager controller returns an OkObjectResult when called.
     [Fact]
     public async Task GetPosts()
     {
@@ -33,6 +38,7 @@ public class UnitTest
         Assert.IsType<OkObjectResult>(result);
     }
     
+    // 2. The Get(id) method in the PostManager controller returns an OkObjectResult when called.
     [Fact]
     public async Task GetPostById()
     {
@@ -55,6 +61,7 @@ public class UnitTest
         Assert.IsType<OkObjectResult>(result);
     }
 
+    // 3. The Post(post) method in the PostManager controller returns a CreatedAtActionResult when called.
     [Fact]
     public async Task NewPost()
     {
@@ -73,6 +80,7 @@ public class UnitTest
         Assert.IsType<CreatedAtActionResult>(result);
     }
 
+    // 4. The Put(id, title) method in the PostManager controller returns an OkObjectResult when called.
     [Fact]
     public async Task UpdatePost()
     {
@@ -96,6 +104,7 @@ public class UnitTest
         Assert.IsType<OkObjectResult>(result);
     }
     
+    // 5. The Delete(id) method in the PostManager controller returns an OkObjectResult when called.
     [Fact]
     public async Task DeletePost()
     {
@@ -119,6 +128,7 @@ public class UnitTest
         Assert.IsType<OkObjectResult>(result);
     }
     
+    // 6. The Get() method in the CommentManager controller returns an OkObjectResult when called.
     [Fact]
     public async Task GetComments()
     {
@@ -142,6 +152,7 @@ public class UnitTest
         Assert.IsType<OkObjectResult>(result);
     }
     
+    // 7. The Get(id) method in the CommentManager controller returns an OkObjectResult when called.
     [Fact]
     public async Task GetCommentById()
     {
@@ -165,6 +176,7 @@ public class UnitTest
         Assert.IsType<OkObjectResult>(result);
     }
     
+    // 8. The Post(comment) method in the CommentManager controller returns a CreatedAtActionResult when called.
     [Fact]
     public async Task NewComment()
     {
@@ -196,6 +208,7 @@ public class UnitTest
         Assert.IsType<CreatedAtActionResult>(result);
     }
     
+    // 9. The Put(id, content) method in the CommentManager controller returns an OkObjectResult when called.
     [Fact]
     public async Task UpdateComment()
     {
@@ -231,6 +244,7 @@ public class UnitTest
         Assert.IsType<OkObjectResult>(result);
     }
     
+    // 10. The Delete(id) method in the CommentManager controller returns an OkObjectResult when called.
     [Fact]
     public async Task DeleteComment()
     {
