@@ -1,7 +1,5 @@
 # BlogApp
-This is a bloging app created with ASP.NET Core Web Api. The main goal of this task was to be able to use EFCore to integrate PostgreSQL with .Net development. The method to allow users to access it was our choice and I have gone with a REST(ful) API. The project follows the Clean Architecture pattern where the code base has been divided into Domain, Application, Infrastructure and Presentation. The project also contains a test module, which contains unit tests for the application.
-
-P.S.: I am not using a Roslyn-based linter. For that reason, my code might show some formatting/linting differences from popular text-editor code (VSCode...), but it's just the linter.
+This application is a blogging platform developed using ASP.NET Core Web API. The primary objective of this endeavor was to leverage EF Core for seamless integration of PostgreSQL with .NET development. The approach chosen to enable user access was the implementation of a RESTful API. Additionally, the project incorporates a dedicated testing module that encompasses comprehensive unit tests for the application.
 
 ## Table of Contents
 1. [Features](#features)
