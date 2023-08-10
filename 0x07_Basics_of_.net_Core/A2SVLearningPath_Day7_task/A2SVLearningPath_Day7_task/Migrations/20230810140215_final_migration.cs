@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace A2SVLearningPath_Day7_task.Migrations
 {
     /// <inheritdoc />
-    public partial class first_migration : Migration
+    public partial class final_migration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

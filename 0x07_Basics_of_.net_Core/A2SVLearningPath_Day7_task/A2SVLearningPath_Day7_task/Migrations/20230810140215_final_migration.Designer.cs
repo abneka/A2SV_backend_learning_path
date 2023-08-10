@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace A2SVLearningPath_Day7_task.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20230809183630_first_migration")]
-    partial class first_migration
+    [Migration("20230810140215_final_migration")]
+    partial class final_migration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
