@@ -1,7 +1,7 @@
 # BlogApp
 This application is a blogging platform developed using ASP.NET Core Web API. The primary objective of this endeavor was to leverage EF Core for seamless integration of PostgreSQL with .NET development. The approach chosen to enable user access was the implementation of a RESTful API. Additionally, the project incorporates a dedicated testing module that encompasses comprehensive unit tests for the application.
 ## Postman Documentation
-[Documentation]((https://documenter.getpostman.com/view/20871920/2s9Xy3trfU#intro))
+[Documentation](https://documenter.getpostman.com/view/20871920/2s9Xy3trfU#intro)
 
 ## Table of Contents
 1. [Features](#features)
